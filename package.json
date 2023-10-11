@@ -1,5 +1,5 @@
 {
-  "name": "demo-1",
+  "name": "demo-10",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.14.3",
-    "@strapi/plugin-users-permissions": "4.14.3",
-    "@strapi/plugin-i18n": "4.14.3",
+    "@strapi/strapi": "4.14.4",
+    "@strapi/plugin-users-permissions": "4.14.4",
+    "@strapi/plugin-i18n": "4.14.4",
     "mysql": "2.18.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "af654977-5e89-4448-839f-3612ee3bdd55"
+    "uuid": "b26ff81a-2138-4e5c-87f4-351032058c70"
   },
   "engines": {
     "node": ">=16.0.0 <=20.x.x",
