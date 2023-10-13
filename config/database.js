@@ -19,7 +19,7 @@ module.exports = ({ env }) => {
           capath: env('DATABASE_SSL_CAPATH', undefined),
           cipher: env('DATABASE_SSL_CIPHER', undefined),
           rejectUnauthorized: env.bool(
-            'DATABASE_SSL_REJECT_UNAUTHORIZED',
+            'DATABASE_SSL_SELF',
             false
           ),
         },
