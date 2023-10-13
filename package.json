@@ -1,5 +1,5 @@
 {
-  "name": "demo-10",
+  "name": "my-app",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,19 +9,18 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.14.4",
-    "@strapi/plugin-users-permissions": "4.14.4",
     "@strapi/strapi": "4.14.4",
-    "mysql": "2.18.1",
-    "pg": "^8.11.3",
-    "pg-connection-string": "^2.6.2"
+    "@strapi/plugin-users-permissions": "4.14.4",
+    "@strapi/plugin-i18n": "4.14.4",
+    "mysql": "2.18.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "b26ff81a-2138-4e5c-87f4-351032058c70"
+    "uuid": "b76947a6-4e0b-4918-8fe9-71c9a7c1aabb"
   },
   "engines": {
     "node": ">=16.0.0 <=20.x.x",
